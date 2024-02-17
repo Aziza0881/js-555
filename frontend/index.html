@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box_textbtn">
+            <h1>Dashboard</h1>
+            <button class="btn">Добавить задачу</button>
+        </div>
+        <div class="box_text">
+            <p>Показать задачи как:</p>
+            <p class="stil1">Таблица</p>
+            <p class="stil">Плитка</p>
+        </div>
+        <div class="box_flex">
+
+            <div class="box_l_r">
+                <div class="box_l">
+                    <p>Заголовок задачи</p>
+                    <p>Описание задачи</p>
+                </div>
+    
+    
+                <div class="box_r">
+                    <p>Дата</p>
+                    <p>Время</p>
+                    <p>Выполнено</p>
+                </div>
+
+            </div>
+
+
+           
+        </div>
+
+        <div class="st_box">
+            <div class="dibil"></div>
+            
+
+        </div>
+    </div>
+
+    <dialog data-modal >
+        <div class="inner-modal" >
+           <h1></h1>
+            <form name="change_task">
+                <input placeholder="Заголовок" type="text">
+                <input placeholder="Описание" type="text">
+                <input placeholder="Время (type=time)" type="text">
+                <input placeholder="Время (type=date)" type="text">
+                <input placeholder="Тип задачи (select - option - new/progress/done)" type="text">
+                <button class="btn2">Добавить</button>
+            </form>
+           
+        </div>
+    </dialog>
+    
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
